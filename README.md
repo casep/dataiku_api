@@ -43,7 +43,7 @@ docker tag api_image:latest 777230094305.dkr.ecr.eu-central-1.amazonaws.com/api_
 
 Push it
 ```
-docker tag api_image:latest 777230094305.dkr.ecr.eu-central-1.amazonaws.com/api_image:latest
+docker push 777230094305.dkr.ecr.eu-central-1.amazonaws.com/api_image:latest
 ```
 
 Test from ECR
