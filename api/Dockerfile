@@ -34,4 +34,6 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 COPY ./app .
 
+EXPOSE 5000
+
 ENTRYPOINT ["python3", "-m", "flask", "run", "--host=0.0.0.0"]

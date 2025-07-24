@@ -14,3 +14,8 @@ def not_found(e):
 @cross_origin()
 def get_current_time():
     return {'time': time.time()}
+
+@app.route('/')
+@cross_origin()
+def get_root():
+    return {'status': 'ok'}
